@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2018479078359151513}
   - component: {fileID: 2018479078359151519}
   - component: {fileID: 2018479078359151512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2018479078719635657}
   - component: {fileID: 2018479078719635663}
   - component: {fileID: 2018479078719635656}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 2018479078839801778}
   - component: {fileID: 2018479078839801790}
   - component: {fileID: 2018479078839801779}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ProximityMine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 2018479079260202854}
   - component: {fileID: 2018479079260202852}
   - component: {fileID: 2018479079260202853}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 2018479079427212970}
   - component: {fileID: 2018479079427212968}
   - component: {fileID: 2018479079427212969}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 2018479079828951955}
   - component: {fileID: 2018479079828951953}
   - component: {fileID: 2018479079828951954}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 2018479079888349522}
   - component: {fileID: 2018479079888349520}
   - component: {fileID: 2018479079888349521}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 2018479080190729717}
   - component: {fileID: 2018479080190729707}
   - component: {fileID: 2018479080190729716}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +693,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5934764280437635900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
