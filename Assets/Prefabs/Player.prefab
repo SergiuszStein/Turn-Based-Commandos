@@ -926,7 +926,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6733836944752415551}
   serializedVersion: 2
-  m_Mass: 15
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
@@ -952,7 +952,7 @@ MonoBehaviour:
   _collider: {fileID: 5695774358530017498}
   _playerSpeed: 5000
   _rigidbody: {fileID: 5659347059891430722}
-  _jumpForce: 7500
+  _jumpForce: 500
   _3pCameraSensitivity: 250
   _3pCameraZoomSensitivity: 250
   _camera: {fileID: 0}

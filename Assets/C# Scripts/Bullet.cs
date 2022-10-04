@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField, Range(1, 100)] private float _bulletFast;
     [SerializeField, Range(0f, 10)] private float _lifeTime;
     [SerializeField, Range(1, 100)] private int _bulletDamage;
+    [SerializeField, Range(1, 100)] private float _bounceForce;
 
     private void Update()
     {
@@ -36,12 +37,19 @@ public class Bullet : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             other.gameObject.GetComponent<Player>().Damage(_bulletDamage);
+            other.gameObject.GetComponent<Player>().Bounce(transform.forward, _bounceForce);
             
             Destroy(this.gameObject);
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("GasBarrel"))
         {
             other.gameObject.GetComponent<GasBarrel>().Damage();
+            
+            Destroy(this.gameObject);
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Mines"))
+        {
+            other.gameObject.GetComponent<ProximityMine>().Bounce(transform.forward, _bounceForce);
             
             Destroy(this.gameObject);
         }

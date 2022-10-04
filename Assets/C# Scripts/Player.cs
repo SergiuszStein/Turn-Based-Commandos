@@ -421,6 +421,19 @@ public class Player : MonoBehaviour
             _currentHealth = 100;
         }
     }
+    
+    public void Bounce(Vector3 origin, float force)
+    {
+        if (origin.y < 0)
+        {
+            origin.y *= -1;
+        }
+        
+        _rigidbody.isKinematic = false;
+        _rigidbody.useGravity = true;
+        
+        _rigidbody.AddForce((origin * force), ForceMode.Impulse);
+    }
 
     //Removes player from players list and deletes him
     public void LmaoDed()

@@ -14,6 +14,7 @@ public class ProximityMine : MonoBehaviour
     [SerializeField] private Material _gray;
     [SerializeField] private GameObject _model;
     [SerializeField] private GameObject _boomModel;
+    [SerializeField] private Rigidbody _rigidbody;
     private bool _mineLightOn = false;
     private float _mineLightTimer = 0.2f;
     private float _mineLightTimeLeft;
@@ -50,6 +51,16 @@ public class ProximityMine : MonoBehaviour
         }
     }
 
+    public void Bounce(Vector3 origin, float force)
+    {
+        if (origin.y < 0)
+        {
+            origin.y *= -1;
+        }
+        
+        _rigidbody.AddForce((origin * force), ForceMode.Impulse);
+    }
+    
     private void Explode()
     {
         Collider[] _hitColliders = Physics.OverlapSphere(transform.position, _boomRadius);
@@ -105,6 +116,5 @@ public class ProximityMine : MonoBehaviour
                 _mineLightTimeLeft -= Time.deltaTime;
             }
         }
-        
     }
 }

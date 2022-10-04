@@ -24,7 +24,7 @@ public class PickupSpawner : MonoBehaviour
             Random.Range(-25, 25)
         );
 
-        if (_spawnPickup > (4 + (_turnNumber / _playerManager._gameManager._playerNumber)))
+        if (_spawnPickup > (3 + (_turnNumber / _playerManager._gameManager._playerNumber)))
         {
             Instantiate(_healthPickup, _spawnPosition, transform.rotation);
         }
@@ -33,7 +33,7 @@ public class PickupSpawner : MonoBehaviour
             Instantiate(_ammoPickup, _spawnPosition, transform.rotation);
         }
 
-        for (int i = 0; i < (_turnNumber / _playerManager._gameManager._playerNumber); i++)
+        for (int i = 0; i < ((_turnNumber / _playerManager._gameManager._playerNumber) + 1); i++)
         {
             Vector3 _spawnPosition2 = new Vector3(
                 Random.Range(-25, 25),

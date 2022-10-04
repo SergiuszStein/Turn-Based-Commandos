@@ -209,11 +209,11 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018479078839801791}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8a0f9d3fa1b92064a93cb0c3fa78d1ff, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.2, z: 0.5}
+  m_Size: {x: 1, y: 0.4, z: 1}
   m_Center: {x: 0, y: 0.1, z: 0}
 --- !u!135 &2018479078839801778
 SphereCollider:
@@ -242,7 +242,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!114 &2018479078839801779
 MonoBehaviour:
@@ -269,6 +269,7 @@ MonoBehaviour:
   _gray: {fileID: 2100000, guid: 58577102f3e5977418fe422b9469398d, type: 2}
   _model: {fileID: 9180070364636491401}
   _boomModel: {fileID: 8031574896203623785, guid: be04d2f24e7241a4883b407cf3b95fb4, type: 3}
+  _rigidbody: {fileID: 2018479078839801790}
 --- !u!1 &2018479079260202855
 GameObject:
   m_ObjectHideFlags: 0

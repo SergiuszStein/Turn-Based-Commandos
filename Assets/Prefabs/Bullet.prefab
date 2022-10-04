@@ -131,6 +131,7 @@ MonoBehaviour:
   _bulletFast: 50
   _lifeTime: 1
   _bulletDamage: 30
+  _bounceForce: 15
 --- !u!1 &7397895823782123774
 GameObject:
   m_ObjectHideFlags: 0
