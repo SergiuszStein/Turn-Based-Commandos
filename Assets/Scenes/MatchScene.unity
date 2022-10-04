@@ -5762,6 +5762,7 @@ MonoBehaviour:
   _currentPlayerTurn: 0
   _crosshair: {fileID: 1007524445}
   _uI: {fileID: 1693760583}
+  _gameManager: {fileID: 0}
 --- !u!43 &1902716568
 Mesh:
   m_ObjectHideFlags: 0
@@ -6580,53 +6581,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 269534892, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 289972477, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_Value
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 294542703, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.44444445
-      objectReference: {fileID: 0}
-    - target: {fileID: 294542703, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 647340298, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.44444445
-      objectReference: {fileID: 0}
-    - target: {fileID: 647340298, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 647340298, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.44444445
-      objectReference: {fileID: 0}
-    - target: {fileID: 1023821375, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1848880235, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_text
-      value: 'Movement - WASD
-
-        Jump - Space
-
-        Aim - RMB
-
-        Shoot
-        - LMB
-
-        End Turn - Backspace
-
-        Options - M'
-      objectReference: {fileID: 0}
     - target: {fileID: 4348440261924839258, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6724,26 +6678,11 @@ PrefabInstance:
       value: UI
       objectReference: {fileID: 0}
     - target: {fileID: 7721524142315363253, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: _slider
-      value: 
-      objectReference: {fileID: 4348440263618585373}
-    - target: {fileID: 7721524142315363253, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
       propertyPath: _playerManager
       value: 
       objectReference: {fileID: 1791833965}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
---- !u!114 &4348440263618585373 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 289972477, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-  m_PrefabInstance: {fileID: 4348440263618585372}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6169459531996530068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6795,10 +6734,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6169459532488323921, guid: 873e693c082f4474b89654e87d915700, type: 3}
-      propertyPath: _ui
-      value: 
-      objectReference: {fileID: 1791833965}
     - target: {fileID: 6169459532488323921, guid: 873e693c082f4474b89654e87d915700, type: 3}
       propertyPath: _playerManager
       value: 

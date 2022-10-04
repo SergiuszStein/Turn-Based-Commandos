@@ -48,3 +48,4 @@ MonoBehaviour:
   _ammoPickup: {fileID: 4957591008655354509, guid: ddabfd23848317b4dbd907ff5a6dfd45, type: 3}
   _proxyMine: {fileID: 2018479078839801791, guid: 5f13a8d4081890843b93257f4f36b434, type: 3}
   _gasBarrel: {fileID: 6287484205344666803, guid: ded3ae0fbb7c8054994abd6b981f62f1, type: 3}
+  _playerManager: {fileID: 0}
