@@ -66,6 +66,10 @@ public class Player : MonoBehaviour
     private int _shotgunAmmoMax = 4;
     private int _shotgunAmmoCurrent;
     
+    [Header("Physics")]
+    [SerializeField] private PhysicMaterial _friction;
+    [SerializeField] private PhysicMaterial _noFriction;
+    
     private void Awake()
     {
         _currentHealth = _fullHealth;
@@ -129,11 +133,22 @@ public class Player : MonoBehaviour
         {
             _rigidbody.isKinematic = !isItThatPlayersTurn;
             _rigidbody.useGravity = isItThatPlayersTurn;
+
+            if (isItThatPlayersTurn)
+            {
+                _collider.material = _noFriction;
+            }
+            else
+            {
+                _collider.material = _friction;
+            }
         }
         else
         {
             _rigidbody.isKinematic = false;
             _rigidbody.useGravity = true;
+            
+            _collider.material = _friction;
         }
 
         if (isItThatPlayersTurn)

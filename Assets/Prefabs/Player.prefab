@@ -126,7 +126,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 65327d6d911be7742be4a13a8d13c50d, type: 2}
+  - {fileID: 2100000, guid: fe4972a2e8a1c874bbe7d89256eb58b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -911,7 +911,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6733836944752415551}
-  m_Material: {fileID: 13400000, guid: 6ba41bbf708be444e9f6b03557e81029, type: 2}
+  m_Material: {fileID: 13400000, guid: e28e879cc8f24684fb3d5fe3f0a0732d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -963,7 +963,7 @@ MonoBehaviour:
   _crosshair: {fileID: 0}
   _playerModel: {fileID: 7128833999102922582}
   _shotgunModel: {fileID: 976566549508459559}
-  _playerColor: Yellow
+  _playerColor: Blue
   _healthBarAnchor: {fileID: 5942860377258968875}
   _healthBar: {fileID: 5062521825603252278}
   _blood: {fileID: 201104358971455369, guid: 03c866216688c4d40b316fc7e4470d58, type: 3}
@@ -976,6 +976,8 @@ MonoBehaviour:
   _boomModel: {fileID: 8031574896203623785, guid: be04d2f24e7241a4883b407cf3b95fb4, type: 3}
   _boomRadius: 5
   _clogDamage: 60
+  _friction: {fileID: 13400000, guid: e28e879cc8f24684fb3d5fe3f0a0732d, type: 2}
+  _noFriction: {fileID: 13400000, guid: 6ba41bbf708be444e9f6b03557e81029, type: 2}
 --- !u!1 &6733836945014095096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754548856158258, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 6309
+      value: 6423
       objectReference: {fileID: 0}
     - target: {fileID: 1771754548856158261, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1626,7 +1628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549048807942, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 5365
+      value: 5479
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549048807961, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1658,7 +1660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549412606701, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 6170
+      value: 6284
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549899503628, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_RootOrder
@@ -1734,7 +1736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550199254065, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 7464
+      value: 7578
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550199254068, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1758,7 +1760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550534770730, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 11704
+      value: 11824
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550534770733, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1774,7 +1776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550765061079, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 2948
+      value: 3065
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550765061098, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh

@@ -24,7 +24,7 @@ public class PickupSpawner : MonoBehaviour
             Random.Range(-25, 25)
         );
 
-        if (_spawnPickup > (3 + (_turnNumber / _playerManager._gameManager._playerNumber)))
+        if (_spawnPickup > (2 + (_turnNumber / _playerManager._gameManager._playerNumber)))
         {
             Instantiate(_healthPickup, _spawnPosition, transform.rotation);
         }
