@@ -81,4 +81,9 @@ public class UI : MonoBehaviour
             _bulletSlots[i].SetActive(i < count);
         }
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }

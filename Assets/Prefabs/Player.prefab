@@ -950,10 +950,10 @@ MonoBehaviour:
   _playerManager: {fileID: 0}
   _uI: {fileID: 0}
   _collider: {fileID: 5695774358530017498}
-  _playerSpeed: 5000
+  _playerSpeed: 500
   _rigidbody: {fileID: 5659347059891430722}
   _jumpForce: 500
-  _3pCameraSensitivity: 250
+  _3pCameraSensitivity: 5
   _3pCameraZoomSensitivity: 250
   _camera: {fileID: 0}
   _3pCameraHorizontalAnchor: {fileID: 6733836945014095096}
@@ -1608,7 +1608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754548856158258, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 6423
+      value: 6426
       objectReference: {fileID: 0}
     - target: {fileID: 1771754548856158261, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1628,7 +1628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549048807942, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 5479
+      value: 5482
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549048807961, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1660,7 +1660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549412606701, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 6284
+      value: 6287
       objectReference: {fileID: 0}
     - target: {fileID: 1771754549899503628, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_RootOrder
@@ -1736,7 +1736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550199254065, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 7578
+      value: 7581
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550199254068, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1760,7 +1760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550534770730, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 11824
+      value: 11827
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550534770733, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh
@@ -1776,7 +1776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550765061079, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_VersionIndex
-      value: 3065
+      value: 3068
       objectReference: {fileID: 0}
     - target: {fileID: 1771754550765061098, guid: 1160579ad03cf1c4fb6142868fcad901, type: 3}
       propertyPath: m_Mesh

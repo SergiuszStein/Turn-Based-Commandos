@@ -15,4 +15,9 @@ public class PlayerWin : MonoBehaviour
 
         _playerWinText.text = _gameManager._playerWin + " Player Wins";
     }
+    
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }

@@ -47,11 +47,10 @@ namespace C__Scripts
         {
             _playerCountDisplayText.text = _playerNumber.ToString();
         }
-    
-        //
-        //MATCH SCENE FUNCTIONS
-        //
-
         
+        public void Exit()
+        {
+            Application.Quit();
+        }
     }
 }
