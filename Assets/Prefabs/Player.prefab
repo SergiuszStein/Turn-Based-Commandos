@@ -975,7 +975,7 @@ MonoBehaviour:
   _shotgunBullet: {fileID: 6689184119160446221, guid: d2ade73e1102a0f4ebd4a30f638b0578, type: 3}
   _boomModel: {fileID: 8031574896203623785, guid: be04d2f24e7241a4883b407cf3b95fb4, type: 3}
   _boomRadius: 5
-  _clogDamage: 60
+  _clogDamage: 70
   _friction: {fileID: 13400000, guid: e28e879cc8f24684fb3d5fe3f0a0732d, type: 2}
   _noFriction: {fileID: 13400000, guid: 6ba41bbf708be444e9f6b03557e81029, type: 2}
 --- !u!1 &6733836945014095096

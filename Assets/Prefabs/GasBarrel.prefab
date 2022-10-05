@@ -1173,7 +1173,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6287484205344666803}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63f1e795d5bf17541baf32217de3f6fe, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1209,4 +1209,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _boomModel: {fileID: 8031574896203623785, guid: be04d2f24e7241a4883b407cf3b95fb4, type: 3}
   _boomRadius: 5
-  _barrelDamage: 60
+  _barrelDamage: 70

@@ -264,7 +264,7 @@ MonoBehaviour:
   - {fileID: 2018479079888349521}
   _mineTimerMax: 1
   _boomRadius: 5
-  _mineDamage: 60
+  _mineDamage: 70
   _red: {fileID: 2100000, guid: 7416b599b4b52154caa49a3c8d904167, type: 2}
   _gray: {fileID: 2100000, guid: 58577102f3e5977418fe422b9469398d, type: 2}
   _model: {fileID: 9180070364636491401}
