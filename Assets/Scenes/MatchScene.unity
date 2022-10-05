@@ -4019,17 +4019,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2069930134383819822, guid: 969b7bb1d50216d4c83bc8982f307ca7, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 3626401194563075631, guid: 969b7bb1d50216d4c83bc8982f307ca7, type: 3}
       propertyPath: m_Name
       value: Level 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4954724331900305597, guid: 969b7bb1d50216d4c83bc8982f307ca7, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 969b7bb1d50216d4c83bc8982f307ca7, type: 3}
@@ -6001,34 +5993,6 @@ PrefabInstance:
     - target: {fileID: 1023821375, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1693760583}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Exit
-      objectReference: {fileID: 0}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UI, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2061578848064279952, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4348440261924839258, guid: 0ff290dd7df271f4a8f8d188748a47a5, type: 3}
       propertyPath: m_Pivot.x

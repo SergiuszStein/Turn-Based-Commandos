@@ -11,6 +11,8 @@ public class PlayerWin : MonoBehaviour
     
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        
         _gameManager = FindObjectOfType<GameManager>();
 
         _playerWinText.text = _gameManager._playerWin + " Player Wins";

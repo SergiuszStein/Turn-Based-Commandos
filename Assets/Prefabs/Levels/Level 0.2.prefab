@@ -49,13 +49,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 891102787551287559}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GasBarrels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &891102787551287559
 Transform:
   m_ObjectHideFlags: 0
@@ -280,7 +280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3526934715512673687}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
