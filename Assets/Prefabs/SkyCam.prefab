@@ -110,6 +110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 0}
   _rotate: {fileID: 847256480687878371}
+  _zoom: {fileID: 847256481736205418}
+  _angle: {fileID: 847256479906649166}
   _cameraPosition: {fileID: 847256479906649166}
   _ui: {fileID: 0}
   _rotationSpeed: 25

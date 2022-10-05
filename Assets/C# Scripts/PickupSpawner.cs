@@ -19,9 +19,9 @@ public class PickupSpawner : MonoBehaviour
         float _spawnPickup = Random.Range(1f, 10f);
 
         Vector3 _spawnPosition = new Vector3(
-            Random.Range(-25, 25),
-            15,
-            Random.Range(-25, 25)
+            Random.Range(-40, 40),
+            40,
+            Random.Range(-40, 40)
         );
 
         if (_spawnPickup > (2 + (_turnNumber / _playerManager._gameManager._playerNumber)))
@@ -36,17 +36,17 @@ public class PickupSpawner : MonoBehaviour
         for (int i = 0; i < ((_turnNumber / _playerManager._gameManager._playerNumber) + 1); i++)
         {
             Vector3 _spawnPosition2 = new Vector3(
-                Random.Range(-25, 25),
-                15,
-                Random.Range(-25, 25)
+                Random.Range(-40, 40),
+                40,
+                Random.Range(-40, 40)
             );
             
             Instantiate(_proxyMine, _spawnPosition2, transform.rotation);
 
             Vector3 _spawnPosition3 = new Vector3(
-                Random.Range(-25, 25),
-                15,
-                Random.Range(-25, 25)
+                Random.Range(-40, 40),
+                40,
+                Random.Range(-40, 40)
             );
                     
             Instantiate(_gasBarrel, _spawnPosition3, transform.rotation);

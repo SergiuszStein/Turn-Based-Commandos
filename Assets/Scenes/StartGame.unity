@@ -1105,6 +1105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerNumber: 2
   _playerCountDisplayText: {fileID: 1859222320}
+  _playerWin: 
 --- !u!4 &1147036449
 Transform:
   m_ObjectHideFlags: 0

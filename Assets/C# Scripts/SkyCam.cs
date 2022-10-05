@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,11 +7,14 @@ public class SkyCam : MonoBehaviour
 {
     [SerializeField] private GameObject _camera;
     [SerializeField] private GameObject _rotate;
+    [SerializeField] private GameObject _zoom;
+    [SerializeField] private GameObject _angle;
     [SerializeField] private GameObject _cameraPosition;
     [SerializeField] private UI _ui;
     [SerializeField, Range(1, 100)] private float _rotationSpeed;
 
     // Update is called once per frame
+
     void Update()
     {
         Position_Camera();
