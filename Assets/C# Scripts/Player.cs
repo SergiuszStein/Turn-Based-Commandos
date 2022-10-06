@@ -76,6 +76,17 @@ public class Player : MonoBehaviour
         _shotgunAmmoCurrent = _shotgunAmmoMax;
     }
 
+    private void FixedUpdate()
+    {
+        if (!_isItThisPlayersTurn || !_isAlive)
+        {
+            return;
+        }
+        
+        //Player movement with physics
+        Move_Player();
+    }
+
     private void Update()
     {
         if (!_isItThisPlayersTurn || !_isAlive)
@@ -88,14 +99,13 @@ public class Player : MonoBehaviour
         //Player movement
         Update_wasdInputVector3();
         Update_movementDirection();
-        Move_Player();
         Jump_Player();
         DieIfFellFromMap();
 
         //Aiming
         Check_ifIsAiming();
-
-        //3rd Person Camera
+        
+        //Camera
         Update_mouseInputVector3();
         Update_3pCameraVerticalRotation();
         Rotate_3pCameraHorizontalAnchor();
@@ -103,7 +113,7 @@ public class Player : MonoBehaviour
         Rotate_3pCameraAimAnchor();
         Zoom_3pCamera();
         Move_camera();
-
+        
         //3D model
         Rotate_playerModel();
         Rotate_shotgunModel();
@@ -190,9 +200,9 @@ public class Player : MonoBehaviour
     private void Move_Player()
     {
         _rigidbody.velocity = new Vector3(
-            _movementDirection.x * (Time.deltaTime * _playerSpeed),
+            _movementDirection.x * (Time.fixedDeltaTime * _playerSpeed),
             _rigidbody.velocity.y,
-            _movementDirection.z * (Time.deltaTime * _playerSpeed)
+            _movementDirection.z * (Time.fixedDeltaTime * _playerSpeed)
         );
     }
     
